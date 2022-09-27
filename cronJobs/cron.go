@@ -49,6 +49,7 @@ func MoveScheduledOrders() {
 	}
 }
 
+// updated cron jobs
 func InitiateScheduledOrder() {
 	query := `
 		SELECT id,address_id,user_id,mode
